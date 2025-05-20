@@ -1,0 +1,5 @@
+{
+  "root": true,
+  "extends": ["@repo/eslint-config/next-js", "plugin:prettier/recommended"],
+  "plugins": ["prettier"]
+}

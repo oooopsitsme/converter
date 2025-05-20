@@ -1,0 +1,46 @@
+{
+	"name": "web",
+	"version": "0.1.0",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbopack --port 3000",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint --max-warnings 0",
+		"check-types": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@repo/logger": "workspace:*",
+		"@repo/monitoring": "workspace:*",
+		"@repo/ui": "workspace:*",
+		"@tanstack/react-query": "^5.76.1",
+		"babel-plugin-react-compiler": "19.1.0-rc.2",
+		"next": "^15.3.0",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"tailwind-merge": "^3.0.1",
+		"tailwindcss-animate": "^1.0.7"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "3.2.0",
+		"@playwright/test": "1.46.0",
+		"@repo/eslint-config": "workspace:*",
+		"@repo/ts-config": "workspace:*",
+		"@types/node": "^22.15.3",
+		"@types/react": "19.0.0",
+		"@types/react-dom": "19.1.1",
+		"autoprefixer": "^10.4.21",
+		"eslint": "^9.27.0",
+		"eslint-config-next": "15.1.6",
+		"eslint-config-prettier": "10.0.1",
+		"eslint-plugin-prettier": "5.2.3",
+		"postcss": "8.5.2",
+		"prettier": "^3.5.3",
+		"tailwindcss": "3.4.1",
+		"typescript": "5.8.2"
+	},
+	"overrides": {
+		"react-is": "19.0.0"
+	}
+}
