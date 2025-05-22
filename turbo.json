@@ -1,6 +1,7 @@
 {
   "$schema": "https://turborepo.com/schema.json",
   "globalDependencies": [".env.development", ".env.production", ".env.local", "tsconfig.json"],
+  "globalEnv": ["LOG_LEVEL"],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],

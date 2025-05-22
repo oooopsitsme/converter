@@ -1,9 +1,7 @@
+import { Rates } from '@/modules/rates/Rates'
+
 const Page = () => {
-	return (
-		<div>
-			<p>CONVERTER</p>
-		</div>
-	)
+	return <Rates />
 }
 
 export default Page

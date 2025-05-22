@@ -1,0 +1,5 @@
+{
+	"root": true,
+	"extends": ["@repo/eslint-config", "plugin:prettier/recommended"],
+	"plugins": ["prettier"]
+}

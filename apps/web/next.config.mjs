@@ -6,14 +6,7 @@ const nextConfig = {
 	experimental: {
 		reactCompiler: true
 	},
-	images: {
-		minimumCacheTTL: 60 * 60 * 24,
-		remotePatterns: [
-			{
-				hostname: ''
-			}
-		]
-	},
+	images: {},
 	rewrites: async () => {
 		return [
 			{

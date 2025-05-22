@@ -6,9 +6,13 @@
 		"paths": {
 			"@/*": ["./src/*"],
 			"@app/*": ["./src/app/*"],
+			"@common/*": ["./src/common/*"],
 			"@components/*": ["./src/components/*"],
 			"@modules/*": ["./src/modules/*"],
-			"@repo/ui/*": ["../../packages/components/src/*"]
+			"@services/*": ["./src/services/*"],
+			"@repo/ui/*": ["../../packages/components/src/*"],
+			"@utils/*": ["./src/common/utils/*"],
+			"@hooks/*": ["./src/hooks/*"]
 		}
 	},
 	"include": ["**/*.ts", "**/*.tsx", "next-env.d.ts", ".next/types/**/*.ts"],

@@ -7,7 +7,7 @@ const GlobalNotFoundInner = () => {
 		<html lang='en'>
 			<body
 				id='__next'
-				className='p-0 m-0 h-full text-base'
+				className='p-0 m-0 h-full'
 			>
 				<p>Oops, Something went wrong! Please try again later.</p>
 			</body>
